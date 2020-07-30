@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Generally followed the example given for mean of vectors, replacing m with inv and so on. 
 
-## Write a short comment describing this function
+## Gets a matrix and caches the inverse given by cacheSolve 
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
@@ -16,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Solves for the inverse of a matrix 
 
 cacheSolve <- function(x, ...) {
   inv <- x$getinverse()
